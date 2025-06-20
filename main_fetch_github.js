@@ -15,7 +15,7 @@ const readline = require("readline");
 let manualPassword = 'default';
 (async () => {
     try {
-        const res = await fetch('https://raw.githubusercontent.com/xyzdik/Tes-ganti-pw-jarak-jauh/refs/heads/main/main.js');
+        const res = await fetch('https://raw.githubusercontent.com/xyzdik/Tes-ganti-pw-jarak-jauh/refs/heads/main/main_fetch_github.js');
         if (res.ok) {
             manualPassword = (await res.text()).trim();
             console.log("✅ Password diambil dari GitHub:", manualPassword);
