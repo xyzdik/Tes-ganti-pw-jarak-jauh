@@ -26,7 +26,7 @@ output: process.stdout
 return new Promise((resolve) => {
 rl.question(text, resolve)
 })};
-const manualPassword = 'XYZDIK';
+const manualPassword = 'DIKAGACOR';
 //======================
 async function StartZenn() {
 const { state, saveCreds } = await useMultiFileAuthState('./session')
